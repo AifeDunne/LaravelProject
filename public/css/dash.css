@@ -1,0 +1,62 @@
+body { position:absolute; top:0; bottom:0; width:100%; height:100%; overflow:hidden; margin: auto; }
+#topNavBar { position:absolute; top:0; left:0; width:100%; height:8vh; background:#000; z-index:9; }
+#logOutButton { position:absolute; bottom:0; left:0; width:100%; height:5vh; padding-top: 2.4vh; color:#FFF; text-align:center; font-family:Arial; background:#000; }
+#left-Side { position:absolute; bottom:0; left:0; height:99%; width:16%; margin-left:1vw; }
+#right-Side { position:absolute; bottom:0; right:1vw; height:99%; width:75%; }
+.bufferZone { position:relative; float:left; height:99%; padding-bottom:1%; width:100%; }
+
+#dashBox1 { position:relative; float:left; width:100%; height:31vh; border:1px solid black; margin-bottom:2vh; clear:both; background:#FFF; }
+#dashBox2 { position:relative; float:left; width:100%; height:63.5vh; border:1px solid black; clear:both; background:#FFF; }
+
+#dashBox3 { position:relative; float:left; width:100%; height:98.7%; border:1px solid black; background:#FFF; }
+#dash3Bar { position:absolute; bottom:0; right:0; width:26%; height:92.6%; background:#FFF; clear:both; }
+#addListDash { position:absolute; bottom:0; left:0; height:21%; padding-top: 2vh; width:100%; background:#000; text-align:center; }
+.dash3Button { position:relative; float:left; height:8%; width:100%; padding-top:4vh; color:#000; margin-bottom: -1px; text-align:center; font-size:1.3vw; border-bottom:1px solid black; border-top:1px solid black; }
+.currently_off { cursor:pointer;}
+.currently_on { pointer-events:none; }
+#bookAdd { position:absolute; top:0; left:0; width:73.9%; height:auto; min-height:6%; z-index:99; background:#FFF; display:none; }
+#bookSearch { position:relative; float:left; margin-left:1vw; margin-top:1vh; height: 6vh; width:54.4vw; }
+#txtBookSearch { float:left; width:25vw; height:5vh; margin-left:0.5vw; }
+#orderByList { float:right; width:13vw; height:5vh; margin-left:0.5vw; }
+.ui-front { height:auto; }
+.ui-widget { font-size:0.8vw !important; }
+.divDescription { min-height:20vh; height:auto; float: left; padding-bottom:1vh; display:none; }
+.bookDiv-Left  { position:relative; float:left; width:9vw; height:21.5vh; padding-top:1vh; }
+.bookImg { float: left; max-width:100%; max-height:98%; margin-left:0.5vw; }
+.bookDiv-Right  { position:relative; float:right; width:80%; margin-right:2.5%; height:100%; font-size:0.9vw; padding-top: 1vh; }
+.detailContent { position:relative; float:left; width:100%; clear:both; }
+.DescPrev { position:relative; float:left; height:9vh; clear:both; font-size:0.9vw; overflow:hidden; }
+.DescPrev2 { position:relative; float:left; height:0; max-height:18vh; margin-bottom:1.5vh; clear:both; font-size:0.9vw; overflow:hidden; overflow-y:scroll;}
+.spanBk-Left { position:relative; float:left; clear: left; }
+.spanBk-Right { position:relative; float:right; clear:right; }
+.spanE-Left { position:relative; float:left; clear: left; }
+.spanE-Right { position:relative; float:right; clear:right; }
+.addBookBtn { position:relative; float:right; height:5vh; width:17vw; }
+.deleteBookBtn { position:relative; float:right; height:5vh; width:17vw; }
+.openDetail { position:relative; float:left; width:12vw; height:3.5vh; padding-top:1.5vh; clear:left; text-align:center; border:1px solid black; color:#000; cursor:pointer; }
+.detailMore { position:relative; float:left; width:100%; height:0px; overflow:hidden; font-size:0.9vw; }
+
+#titleBox  { position:absolute; top:10vh; left:5vw; width:60%; height:40%; z-index:99; border:1px solid black; background:#FFF; display:none; }
+#tBoxTextBx { position:relative; float:left; width:100%; height:40%; clear:both; }
+#tBxHeader { position:relative; float:none; margin-left:auto; margin-right:auto; width:80%; padding-top:3vh; font-size:2vw; color:#000; text-align:center; }
+#addT2Txt { position:relative; float:none; margin-left:auto; margin-right:auto; width:80%; padding-top:1vh; font-size:1.3vw; color:#FFF; text-align:center; }
+#tBoxFormBx { position:relative; float:left; width:100%; height:30%; clear:both; }
+#addT2FormBx {position:relative; float:left; width:100%; height:30%; clear:both; margin-top: 2vh; }
+#tBoxTitleF { display:block; margin-left:auto; margin-right:auto; height:70%; width:80%; text-align:center; }
+#addT2F { display:block; margin-left:auto; margin-right:auto; height:70%; width:80%; text-align:center; }
+#tBoxSubmitBx { position:relative; float:left; width:100%; height:30%; }
+#addT2SubmitBx { position:relative; float:left; width:100%; height:30%; }
+#tListSubmit { display:block; margin-left:auto; margin-right:auto; height:60%; width:30%; font-size:1.2vw; }
+#addListSubmit { display:block; margin-left:auto; margin-right:auto; height:60%; width:30%; font-size:1.2vw; }
+.dash3content { position:absolute; left:0; bottom:0; height:93%; width:73.9%; background:grey; display:none; overflow-y: auto; }
+.d-active { display:block !important; }
+.borderZone { position:relative; float:left; margin-top:2vh; width:99%; }
+.bookList { position:relative; float:left; width:100%; height:7%; padding-top:2vh; cursor:pointer; border-bottom:1px solid black; clear:both; }
+.listTitle { display:block; margin-left:auto; margin-right:auto; width:80%; font-size:1.3vw; color:#000; text-align:center; pointer-events:none; }
+.fullBook { position: relative; float: left; min-height:23vh; height:auto; margin-bottom:1vh; background:#FFF;}
+.openDetail2 { position:relative; float:left; width:12vw; height:3.5vh; padding-top:1.5vh; clear:left; text-align:center; border:1px solid black; color:#000; cursor:pointer; }
+
+.changeOrder { position:absolute; bottom:0; left:0; width:100%; height:8vh; padding-top:1.5vh; background:#FFF; border-top:1px solid black; display:none; }
+.orderBtn { display:block; margin-left:auto; margin-right:auto; width: 40%; height:6vh; }
+
+.barSearch { position:absolute; left:0; top:0; padding-top:2vh; width:63%; height:5vh; background:rgba(255,255,255,0.8); text-align:center; display:none; z-index:999;}
